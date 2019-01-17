@@ -13,7 +13,7 @@ set proxy and User Agent like this:
 ```php
 $bot->getHttpClient()->setOptions([
     CURLOPT_PROXY => 'xx.xx.xxx.xx:xxxx',
-    CURLOPT_PROXYTYPE => CURLPROXY_HTTP // Or CURLPROXY_SOCKS5,
+    CURLOPT_PROXYTYPE => CURLPROXY_HTTP, // Or CURLPROXY_SOCKS5,
     CURLOPT_USERAGENT => 'Your_User_Agent',
 ]);
 ```
